@@ -439,6 +439,7 @@ p {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  display: block;
   text-transform: uppercase;
   color: var(--logo-footer-color);
   margin-bottom: 20px;
@@ -460,7 +461,6 @@ p {
   line-height: 1.25;
   width: 358px;
   padding: 15px 16px;
-  margin-top: 20px;
   margin-right: 12px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -636,7 +636,6 @@ p {
   resize: none;
   margin-bottom: 20px;
   outline: none;
-  color: var(--textarea-color);
   transition: border-color var(--time-function);
 }
 .modal-text:focus {
