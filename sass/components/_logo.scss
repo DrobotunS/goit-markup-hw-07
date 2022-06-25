@@ -1,0 +1,24 @@
+.main-nav .logo {
+    margin-right: 93px;
+}
+
+.logo {
+    color: var(--accent-color);
+    font-family: Raleway, cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo-header {
+    color: var(--logo-header-color);
+}
+
+.logo-footer {
+    color: var(--logo-footer-color);
+    padding-bottom: 20px;
+}
+.footer .logo {
+    display: block;
+    margin-bottom: 20px;
+}
