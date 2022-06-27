@@ -13,42 +13,41 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--Шапка сайта-->
     <header class="header">
-      <div class="container container-nav">
-        <nav class="main-nav">
-          <a href="./index.html" class="link logo"
-            >Web<span class="logo-header">Studio</span></a
+      <div class="container header__container">
+        <nav class="nav">
+          <a href="./index.html" class="link logo nav__logo"
+            >Web<span class="logo--black">Studio</span></a
           >
-          <ul class="site-nav list">
-            <li class="item">
-              <a href="./index.html" class="link header-link">Студия</a>
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a href="./index.html" class="link nav__link">Студия</a>
             </li>
-            <li class="item">
-              <a href="./portfolio.html" class="link header-link current"
+            <li class="nav__item">
+              <a href="./portfolio.html" class="link nav__link current"
                 >Портфолио</a
               >
             </li>
-            <li class="item">
-              <a href="" class="link header-link">Контакты</a>
+            <li class="nav__item">
+              <a href="" class="link nav__link">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="contact list">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link header-link"
-              ><svg class="soc-icon sava" width="16" height="12">
+          <li class="contact__item item">
+            <a href="mailto:info@devstudio.com" class="link contact__link"
+              ><svg class="contact__icon" width="16" height="12">
                 <use href="./imeges/icons.svg#icon-envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="link header-link"
-              ><svg class="soc-icon" width="10" height="16">
+          <li class="contact__item item">
+            <a href="tel:+380961111111" class="link contact__link"
+              ><svg class="contact__icon" width="10" height="16">
                 <use href="./imeges/icons.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -60,31 +59,39 @@
     <main>
       <section class="section">
         <div class="container">
-          <h1 class="portfolio-hidden">Портфолио</h1>
+          <h1 class="portfolio__hidden">Портфолио</h1>
           <ul class="filter list">
             <li class="item">
-              <button type="button" class="button">Все</button>
+              <button type="button" class="filter__button button">Все</button>
             </li>
             <li class="item">
-              <button type="button" class="button">Веб-сайты</button>
+              <button type="button" class="filter__button button">
+                Веб-сайты
+              </button>
             </li>
             <li class="item">
-              <button type="button" class="button">Приложения</button>
+              <button type="button" class="filter__button button">
+                Приложения
+              </button>
             </li>
             <li class="item">
-              <button type="button" class="button">Дизайн</button>
+              <button type="button" class="filter__button button">
+                Дизайн
+              </button>
             </li>
             <li class="item">
-              <button type="button" class="button">Маркетинг</button>
+              <button type="button" class="filter__button button">
+                Маркетинг
+              </button>
             </li>
           </ul>
-          <ul class="portfolio-list list card-set">
+          <ul class="portfolio__list list card-set">
             <li class="item card-item">
               <a
                 href=""
                 target="blank"
                 rel="noopener noreferrer nofollow"
-                class="portfolio-link link"
+                class="portfolio__link link"
                 ><div class="portfolio-top-blok">
                   <img
                     class="img"
@@ -98,9 +105,9 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="portfolio-title title">Технокряк</h2>
-                  <p class="portfolio-text text">Веб-сайт</p>
+                <div class="portfolio__item">
+                  <h2 class="portfolio__title title">Технокряк</h2>
+                  <p class="portfolio__text text">Веб-сайт</p>
                 </div></a
               >
             </li>
@@ -109,7 +116,7 @@
                 href=""
                 target="blank"
                 rel="noopener noreferrer nofollow"
-                class="portfolio-link link"
+                class="portfolio__link link"
                 ><div class="portfolio-top-blok">
                   <img
                     class="img"
@@ -124,11 +131,11 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="portfolio-title title">
+                <div class="portfolio__item">
+                  <h2 class="portfolio__title title">
                     Постер New Orlean vs Golden Star
                   </h2>
-                  <p class="portfolio-text text">Дизайн</p>
+                  <p class="portfolio__text text">Дизайн</p>
                 </div></a
               >
             </li>
@@ -137,7 +144,7 @@
                 href=""
                 target="blank"
                 rel="noopener noreferrer nofollow"
-                class="portfolio-link link"
+                class="portfolio__link link"
                 ><div class="portfolio-top-blok">
                   <img
                     class="img"
@@ -152,9 +159,9 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="portfolio-title title">Ресторан Seafood</h2>
-                  <p class="portfolio-text text">Приложение</p>
+                <div class="portfolio__item">
+                  <h2 class="portfolio__title title">Ресторан Seafood</h2>
+                  <p class="portfolio__text text">Приложение</p>
                 </div></a
               >
             </li>
@@ -163,7 +170,7 @@
                 href=""
                 target="blank"
                 rel="noopener noreferrer nofollow"
-                class="portfolio-link link"
+                class="portfolio__link link"
                 ><div class="portfolio-top-blok">
                   <img
                     class="img"
@@ -178,9 +185,9 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="portfolio-title title">Проект Prime</h2>
-                  <p class="portfolio-text text">Маркетинг</p>
+                <div class="portfolio__item">
+                  <h2 class="portfolio__title title">Проект Prime</h2>
+                  <p class="portfolio__text text">Маркетинг</p>
                 </div></a
               >
             </li>
@@ -189,7 +196,7 @@
                 href=""
                 target="blank"
                 rel="noopener noreferrer nofollow"
-                class="portfolio-link link"
+                class="portfolio__link link"
                 ><div class="portfolio-top-blok">
                   <img
                     class="img"
@@ -204,9 +211,9 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="portfolio-title title">Проект Boxes</h2>
-                  <p class="portfolio-text text">Приложение</p>
+                <div class="portfolio__item">
+                  <h2 class="portfolio__title title">Проект Boxes</h2>
+                  <p class="portfolio__text text">Приложение</p>
                 </div></a
               >
             </li>
@@ -215,7 +222,7 @@
                 href=""
                 target="blank"
                 rel="noopener noreferrer nofollow"
-                class="portfolio-link link"
+                class="portfolio__link link"
                 ><div class="portfolio-top-blok">
                   <img
                     class="img"
@@ -230,11 +237,11 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="portfolio-title title">
+                <div class="portfolio__item">
+                  <h2 class="portfolio__title title">
                     Inspiration has no Borders
                   </h2>
-                  <p class="portfolio-text text">Веб-сайт</p>
+                  <p class="portfolio__text text">Веб-сайт</p>
                 </div></a
               >
             </li>
@@ -243,7 +250,7 @@
                 href=""
                 target="blank"
                 rel="noopener noreferrer nofollow"
-                class="portfolio-link link"
+                class="portfolio__link link"
                 ><div class="portfolio-top-blok">
                   <img
                     class="img"
@@ -258,9 +265,11 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="portfolio-title title">Издание Limited Edition</h2>
-                  <p class="portfolio-text text">Дизайн</p>
+                <div class="portfolio__item">
+                  <h2 class="portfolio__title title">
+                    Издание Limited Edition
+                  </h2>
+                  <p class="portfolio__text text">Дизайн</p>
                 </div></a
               >
             </li>
@@ -269,7 +278,7 @@
                 href=""
                 target="blank"
                 rel="noopener noreferrer nofollow"
-                class="portfolio-link link"
+                class="portfolio__link link"
                 ><div class="portfolio-top-blok">
                   <img
                     class="img"
@@ -284,9 +293,9 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="portfolio-title title">Проект LAB</h2>
-                  <p class="portfolio-text text">Маркетинг</p>
+                <div class="portfolio__item">
+                  <h2 class="portfolio__title title">Проект LAB</h2>
+                  <p class="portfolio__text text">Маркетинг</p>
                 </div></a
               >
             </li>
@@ -295,7 +304,7 @@
                 href=""
                 target="blank"
                 rel="noopener noreferrer nofollow"
-                class="portfolio-link link"
+                class="portfolio__link link"
                 ><div class="portfolio-top-blok">
                   <img
                     class="img"
@@ -310,9 +319,9 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="portfolio-title title">Growing Business</h2>
-                  <p class="portfolio-text text">Приложение</p>
+                <div class="portfolio__item">
+                  <h2 class="portfolio__title title">Growing Business</h2>
+                  <p class="portfolio__text text">Приложение</p>
                 </div></a
               >
             </li>
@@ -322,29 +331,33 @@
     </main>
     <!--Футер-->
     <footer class="footer">
-      <div class="container footer-container">
-        <div class="footer-contact">
-          <a href="./index.html" class="link logo"
-            >Web<span class="logo-footer">Studio</span></a
+      <div class="container footer__container">
+        <div class="footer__contact">
+          <a href="./index.html" class="link logo footer__logo"
+            >Web<span class="logo--white">Studio</span></a
           >
           <address class="address">
-            <ul class="list list-address">
-              <li class="item">
+            <ul class="list address__list">
+              <li class="address__item">
                 <a
                   href="https://goo.gl/maps/rPB3Sk6izmeYMUhF6"
                   target="blank"
                   rel="noopener noreferrer nofollow"
-                  class="link link-address"
+                  class="link address__link"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="item">
-                <a href="mailto:info@example.com" class="link link-contact"
+              <li class="address__item">
+                <a
+                  href="mailto:info@example.com"
+                  class="link address__link contact__link--grey"
                   >info@example.com</a
                 >
               </li>
-              <li class="item">
-                <a href="tel:+380991111111" class="link link-contact"
+              <li class="address__item">
+                <a
+                  href="tel:+380991111111"
+                  class="link address__link contact__link--grey"
                   >+38 099 111 11 11</a
                 >
               </li>
@@ -352,66 +365,66 @@
           </address>
         </div>
         <div class="footer-soc">
-          <h3 class="footer-title">Присоединяйтесь</h3>
-          <ul class="soc-list list">
-            <li class="soc-item">
+          <h3 class="footer__title">Присоединяйтесь</h3>
+          <ul class="soc list">
+            <li class="soc__item">
               <a
-                class="soc-link link"
+                class="soc__link link"
                 href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><svg class="soc-icon" width="20" height="20">
+                ><svg class="soc__icon" width="20" height="20">
                   <use href="./imeges/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="soc-item">
+            <li class="soc__item">
               <a
-                class="soc-link link"
+                class="soc__link link"
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><svg class="soc-icon" width="20" height="20">
+                ><svg class="soc__icon" width="20" height="20">
                   <use href="./imeges/icons.svg#icon-twitter"></use></svg
               ></a>
             </li>
-            <li class="soc-item">
+            <li class="soc__item">
               <a
-                class="soc-link link"
+                class="soc__link link"
                 href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><svg class="soc-icon" width="20" height="20">
+                ><svg class="soc__icon" width="20" height="20">
                   <use href="./imeges/icons.svg#icon-facebook"></use></svg
               ></a>
             </li>
-            <li class="soc-item">
+            <li class="soc__item">
               <a
-                class="soc-link link"
+                class="soc__link link"
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><svg class="soc-icon" width="20" height="20">
+                ><svg class="soc__icon" width="20" height="20">
                   <use href="./imeges/icons.svg#icon-linkedin"></use></svg
               ></a>
             </li>
           </ul>
         </div>
-        <form class="footer-form">
-          <label class="footer-title footer-lable"
+        <form class="footer__form">
+          <label class="footer__title footer-lable"
             >Подпишитесь на рассылку</label
           >
-          <div class="footer-email">
-            <span class="footer-input-wrap">
+          <div class="footer__email">
+            <span class="footer__input-wrap">
               <input
                 type="email"
-                class="footer-input"
+                class="footer__input"
                 name="user-email"
                 placeholder="E-mail"
                 maxlength="25"
               />
             </span>
-            <button type="submit" class="button-primary footer-button">
+            <button type="submit" class="button button__icon">
               Подписаться
               <svg width="24" height="24" class="icon-submit">
                 <use href="./imeges/icons.svg#icon-icon-send"></use>
