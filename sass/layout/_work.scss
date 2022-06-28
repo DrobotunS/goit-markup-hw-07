@@ -26,3 +26,6 @@
 .section-work {
   padding-top: 0;
 }
+.work__list .card-item {
+  flex-basis: calc(100% / 3 - 30px);
+}

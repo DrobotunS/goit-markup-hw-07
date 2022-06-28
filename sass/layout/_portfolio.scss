@@ -1,18 +1,21 @@
-.filter {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-  .item + .item {
-    margin-left: 8px;
-  }
-}
-
 .portfolio__title {
   margin-bottom: 4px;
   color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
+.portfolio__hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .portfolio__text {
@@ -26,12 +29,6 @@
   display: inline-block;
   box-sizing: border-box;
   border: 1px solid var(--portfolio-border-color);
-}
-
-.filter .button:hover,
-.filter .button:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio__link {
@@ -68,4 +65,7 @@
   padding: 63px 24px;
   transition: transform var(--time-function),
     color 350ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+.portfolio__list .card-item {
+  flex-basis: calc(100% / 3 - 30px);
 }

@@ -1,5 +1,5 @@
 .customers__item {
-  flex-basis: calc(100% / 6 - 30px);
+  --card-item: 6;
 }
 
 .customers__link {

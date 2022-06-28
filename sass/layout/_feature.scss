@@ -1,5 +1,4 @@
-.feature__hidden,
-.portfolio__hidden {
+.feature__hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -28,4 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.feature__list {
+  --card-item: 4;
 }
